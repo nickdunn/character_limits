@@ -1,0 +1,9 @@
+label i span.current-length,
+label i span.max-length {
+	background: none;
+	padding: 0;
+	margin: 0;
+	float: none;
+	display: inline;
+	border: none;
+}

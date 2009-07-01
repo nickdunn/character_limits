@@ -33,8 +33,8 @@
 		public function initaliseAdminPageHead($context) {
 			$page = $context['parent']->Page;
 			
-			$page->addStylesheetToHead(URL . '/extensions/character_limits/assets/character_limits.css', 'screen', 1001);
-			$page->addScriptToHead(URL . '/extensions/character_limits/assets/character_limits.js', 1002);
+			$page->addStylesheetToHead(URL . '/extensions/character_limits/assets/character_limits.css', 'screen', 99999991);
+			$page->addScriptToHead(URL . '/extensions/character_limits/assets/character_limits.js', 99999992);
 			
 		}
 	}

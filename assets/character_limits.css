@@ -1,3 +1,4 @@
+label i span.character-limit,
 label i span.current-length,
 label i span.max-length {
 	background: none;
@@ -6,4 +7,8 @@ label i span.max-length {
 	float: none;
 	display: inline;
 	border: none;
+}
+
+.maxlength-limit span.current-length {
+	color: red;
 }
